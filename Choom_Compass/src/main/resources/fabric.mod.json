@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "choom_compass",
+  "version": "${version}",
+  "name": "Choom_Compass",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/choom_compass/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.choomcompass.choom_compass.client.Choom_compassClient"
+    ],
+    "main": [
+      "dev.choomcompass.choom_compass.Choom_compass"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
